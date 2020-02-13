@@ -1,0 +1,18 @@
+
+/* Class = "UILabel"; text = "No results found"; ObjectID = "4ep-vq-Ggw"; */
+"4ep-vq-Ggw.text" = "Nincs adat";
+
+/* Class = "UISegmentedControl"; MIj-3K-flh.segmentTitles[0] = "Music"; ObjectID = "MIj-3K-flh"; */
+"MIj-3K-flh.segmentTitles[0]" = "Zene";
+
+/* Class = "UISegmentedControl"; MIj-3K-flh.segmentTitles[1] = "TV Shows"; ObjectID = "MIj-3K-flh"; */
+"MIj-3K-flh.segmentTitles[1]" = "TV Adasok";
+
+/* Class = "UISegmentedControl"; MIj-3K-flh.segmentTitles[2] = "Movies"; ObjectID = "MIj-3K-flh"; */
+"MIj-3K-flh.segmentTitles[2]" = "Filmek";
+
+/* Class = "UINavigationItem"; title = "WiFinder"; ObjectID = "ldP-RN-bpQ"; */
+"ldP-RN-bpQ.title" = "WiFinder";
+
+/* Class = "UISearchBar"; placeholder = "Search for music, TV shows, movies"; ObjectID = "zZ7-mc-SAO"; */
+"zZ7-mc-SAO.placeholder" = "Kereses zenek, TV adasok es filmek utan";

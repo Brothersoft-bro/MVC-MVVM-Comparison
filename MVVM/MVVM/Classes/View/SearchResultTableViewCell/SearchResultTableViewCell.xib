@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="100" id="KGk-i7-Jjw" customClass="SearchResultTableViewCell" customModule="WiFiestaTestApp" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="384" height="100"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="384" height="99.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lpa-zk-B9v">
+                        <rect key="frame" x="99" y="11" width="279" height="21"/>
+                        <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Details" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wIT-ch-uLe">
+                        <rect key="frame" x="99" y="37" width="275" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1aR-02-5xI">
+                        <rect key="frame" x="11" y="11" width="78" height="78"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="1aR-02-5xI" secondAttribute="height" multiplier="1:1" id="MSw-VP-T05"/>
+                        </constraints>
+                        <state key="normal" image="placeholder_icon"/>
+                        <connections>
+                            <action selector="didSelectThumbnailButtonWithButton:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ynm-aK-LjF"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+                <constraints>
+                    <constraint firstItem="1aR-02-5xI" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-5" id="1xg-io-Uj8"/>
+                    <constraint firstItem="wIT-ch-uLe" firstAttribute="top" secondItem="lpa-zk-B9v" secondAttribute="bottom" constant="5" id="AdS-g2-BpG"/>
+                    <constraint firstItem="lpa-zk-B9v" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="JBP-Ji-rXI"/>
+                    <constraint firstItem="1aR-02-5xI" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" id="PyM-Yw-LbH"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="1aR-02-5xI" secondAttribute="bottom" id="Q50-Wt-EFx"/>
+                    <constraint firstItem="lpa-zk-B9v" firstAttribute="leading" secondItem="1aR-02-5xI" secondAttribute="trailing" constant="10" id="Wks-Gh-MY9"/>
+                    <constraint firstItem="lpa-zk-B9v" firstAttribute="trailing" secondItem="H2p-sc-9uM" secondAttribute="trailingMargin" constant="10" id="bao-Qu-iLe"/>
+                    <constraint firstAttribute="trailing" secondItem="wIT-ch-uLe" secondAttribute="trailing" constant="10" id="e1s-uo-Bgf"/>
+                    <constraint firstItem="wIT-ch-uLe" firstAttribute="leading" secondItem="1aR-02-5xI" secondAttribute="trailing" constant="10" id="upy-h4-U7Q"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" cocoaTouchSystemColor="lightTextColor"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="firstLabel" destination="lpa-zk-B9v" id="Fya-b9-IFH"/>
+                <outlet property="secondLabel" destination="wIT-ch-uLe" id="ZLZ-pC-aLv"/>
+                <outlet property="thumbnailButton" destination="1aR-02-5xI" id="Pwz-kh-Ei2"/>
+            </connections>
+            <point key="canvasLocation" x="69" y="14"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="placeholder_icon" width="512" height="512"/>
+    </resources>
+</document>
