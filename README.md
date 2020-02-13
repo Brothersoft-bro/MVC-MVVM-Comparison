@@ -12,3 +12,7 @@ The idea of this repository is to provide a simple overview, pros and cons of us
 - Searching for movies, TV shows and Music using the iTunes Search API
 - Displaying of thumbnails in a table view
 - Playing the trailer of the selected media
+
+## Screenshot
+
+![ScreenShot](https://raw.github.com/{csongork91}/{MVC-MVVM-Comparison}/{master}/{Images/Screenshot1.png})
