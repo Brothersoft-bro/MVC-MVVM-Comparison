@@ -15,4 +15,6 @@ The idea of this repository is to provide a simple overview, pros and cons of us
 
 ## Screenshot
 
-![Screenshot](Screenshot1.png)
+<div align="center">
+    <img src="/Images/Screenshot1.png" width="400px"</img> 
+</div>
