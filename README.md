@@ -15,4 +15,4 @@ The idea of this repository is to provide a simple overview, pros and cons of us
 
 ## Screenshot
 
-![ScreenShot](https://raw.github.com/{csongork91}/{MVC-MVVM-Comparison}/{master}/{Images/Screenshot1.png})
+![ScreenShot](https://github.com/Brothersoft-bro/MVC-MVVM-Comparison/blob/master/Images/Screenshot1.png})
